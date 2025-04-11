@@ -3,7 +3,7 @@ import  telebot, random, config c
 from translate import Translator
 from telebot import types
 transl = Translator(from_lang='en', to_lang='ru')
-bot = telebot.TeleBot("6732940033:AAFvPegFwtEs_IOIrj3e7Pf8Lh7iQCIPmd4")
+bot = telebot.TeleBot("token")
 
 @bot.message_handler(commands=["start"])
 def buttom(message):
